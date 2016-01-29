@@ -1,0 +1,37 @@
+﻿@model FarmStore0906.Models.ProductListViewModel
+@*@using FarmStore0906.HtmlHelpers*@
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Search</title>
+</head>
+<body>
+    <div>
+        <h3>Fruit Search Result:</h3>
+        @foreach (var p in Model.AllFruits)
+        {
+            @Html.Partial("ProductSummary", p)
+        }
+    
+        @*@for (int i = 1; i <= ViewBag.MaxPage; i++)
+            {
+
+                @Html.ActionLink(i.ToString() + " ", "Show", new { pageNumber = i });
+
+            }  <br />*@
+
+        <div class="btn-group pull-left">
+            @Html.ActionLink("Go Back", "Show", "Fruit", new { pageNumber = 1 }, null)
+        </div>
+
+        <div class="btn-group pull-right">
+            <label>Page</lable>
+
+                @*@Html.PageLinks(Model.PagingInfo, x => Url.Action("Search",
+       new { pageNumber = x, category = Model.CurrentCategory }))*@
+
+        </div>
+</body>
+</html>

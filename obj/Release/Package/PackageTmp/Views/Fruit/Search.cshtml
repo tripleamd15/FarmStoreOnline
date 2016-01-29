@@ -1,0 +1,44 @@
+﻿@model List<FarmStore0906.Models.Fruit>
+
+
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Search</title>
+</head>
+<body>
+    <div> 
+        <h2>Fruit Search Result:</h2>
+        <table border="1">
+            <tr>
+                <th>Picture</th>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Action</th>
+                @*<th>Edit</th>
+                <th>Delete</th>*@
+            </tr>
+            @foreach (var fruit in this.Model)
+            {
+                <tr>
+                    <td><img src="@Url.Content(fruit.FruitImagePath)" alt="@fruit.Name" /></td>  @*display image*@
+                    <td>@fruit.Id</td>
+                    <td>@fruit.Name</td>
+                    <td>@fruit.Price</td>
+                    <td>
+                        @Html.ActionLink("Add to cart", "AddToCart", "Cart",
+                                 new { fruitId = fruit.Id, returnUrl = Request.Url.PathAndQuery },
+                                 null)
+                </td>  
+                    @*<td>@Html.ActionLink("edit", "Edit", new { id = fruit.Id })</td>
+                    <td>@Html.ActionLink("delete", "Delete", new { id = fruit.Id })</td>*@
+                </tr>
+            }
+        </table>
+        @Html.ActionLink("Go Back", "Show", "Fruit", new { pageNumber=1},null)
+    </div>
+</body>
+</html>

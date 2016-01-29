@@ -1,0 +1,11 @@
+﻿<div class="col-lg-8">
+    @using (Html.BeginForm("Search", "Fruit", FormMethod.Get))
+    {
+        @*<b>Search By:</b>*@
+        @*@Html.RadioButton("searchBy", "Name")<text>Name</text>
+        @Html.RadioButton("searchBy", "Price", true)<text>Price</text> <br />*@
+        @Html.TextBox("search")<input type="submit" value="Search">
+    }
+</div>
+
+

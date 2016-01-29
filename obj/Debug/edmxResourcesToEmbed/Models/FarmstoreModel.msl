@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FarmstoreModelStoreContainer" CdmEntityContainer="FarmstoreEntities">
+    <EntitySetMapping Name="Fruits">
+      <EntityTypeMapping TypeName="FarmstoreModel.Fruit">
+        <MappingFragment StoreEntitySet="Fruit">
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="FruitImagePath" ColumnName="FruitImagePath" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetFruitsOfPage" FunctionName="FarmstoreModel.Store.GetFruitsOfPage">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FarmstoreModel.GetFruitsOfPage_Result">
+          <ScalarProperty Name="RowNumber" ColumnName="RowNumber" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="FruitImagePath" ColumnName="FruitImagePath" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

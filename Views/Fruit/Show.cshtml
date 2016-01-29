@@ -1,0 +1,46 @@
+﻿@model FarmStore0906.Models.ProductListViewModel
+@*@using FarmStore0906.HtmlHelpers*@
+ 
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Show</title>
+</head>
+<body>
+    <div style="font-family:Arial">
+                
+        <div>
+            <h4>Product List:</h4>      
+            <div class="media">
+                <label>6 @Model.CurrentCategory product(s) shown on each page:</label>
+
+                <div class="btn-group pull-right">
+                    <label>Page</lable>
+
+                        @Html.PageLinks(Model.PagingInfo, x => Url.Action("Show",
+                new { category = Model.CurrentCategory, page = x }))
+                </div>
+            </div>
+
+            @foreach (var p in Model.AllFruits)
+            {
+                @Html.Partial("ProductSummary", p)
+            }
+        </div>
+
+        @*<img src="@Url.Content(fruit.FruitImagePath)" alt="@fruit.Name" />*@
+
+        <div class="btn-group pull-left">
+            @Html.ActionLink("Home", "Introduction", "Fruit")
+        </div>
+
+        <div class="btn-group pull-right">
+            <label>Page</lable>
+
+                @Html.PageLinks(Model.PagingInfo, x => Url.Action("Show",
+                new { category = Model.CurrentCategory, page = x }))
+        </div>
+
+    </div>
+</body>
+</html>

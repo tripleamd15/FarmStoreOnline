@@ -1,0 +1,38 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="~/Content/ErrorStyles.css" rel="stylesheet" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div class="navbar navbar-inverse" role="navigation">
+        <a class="navbar-brand" href="#">FARM STORE</a>
+        <div class="navbar-brand pull-right" href="#">@Html.ActionLink("AdminLogin", "Index", "Admin") </div>
+        @Html.Action("Summary", "Cart")
+    </div>
+    
+    <div class="row panel">
+        <div id="categories" class="col-xs-3">
+            @Html.ActionLink("Home", "Index", "Home")<br />
+            
+        
+           @Html.ActionLink("Introduction", "Introduction", "Home")
+            
+               
+            
+
+        </div>
+        <div class="col-xs-8">
+            @RenderBody()
+        </div>
+    </div>
+</body>
+<footer style="position: fixed;
+     left: 45px;
+     bottom: 15px;">&copy; 2015 Farmstore</footer>
+</html>

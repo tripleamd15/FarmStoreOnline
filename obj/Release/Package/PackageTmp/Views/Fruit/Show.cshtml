@@ -1,0 +1,59 @@
+﻿@model List<FarmStore0906.Models.GetFruitsOfPage_Result>
+
+
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Show</title>
+</head>
+<body>
+    <div style="font-family:Arial"> 
+        <h2>Fruit List:</h2>
+
+        @using(Html.BeginForm("Search","Fruit",FormMethod.Get))
+       {
+            <b>Search By:</b>
+            @Html.RadioButton("searchBy","Name")<text>Name</text>
+            @Html.RadioButton("searchBy","Price",true)<text>Price</text> <br />
+            @Html.TextBox("search")<input type="submit" value="Search">
+
+      }
+        <h5></h5>
+        @Html.Label("8 fruits shown each page:")
+        <table border="1">
+            <tr>
+                <th>Picture</th>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Action</th>
+                
+            </tr>
+            @foreach (var fruit in this.Model)
+            {
+                <tr>
+                    <td><img src="@Url.Content(fruit.FruitImagePath)" alt="@fruit.Name"/></td>  @*display image*@
+                    <td>@fruit.Id</td>
+                    <td>@fruit.Name</td>
+                    <td>@fruit.Price</td>
+                    <td>@Html.ActionLink("Add to cart", "AddToCart","Cart", 
+                                 new {fruitId=fruit.Id,returnUrl=Request.Url.PathAndQuery},
+                                 null)</td>   @*inculding null is important here*@
+                   
+                </tr>
+            }
+        </table>
+       <label>Page</lable> @for (int i = 1; i <= ViewBag.MaxPage; i++)
+         { 
+                               
+             @Html.ActionLink(i.ToString() + " ", "Show", new { pageNumber = i });
+                                   
+         }  <br />
+          
+        @Html.ActionLink("Go Home","Index","Home")
+
+    </div>
+</body>
+</html>

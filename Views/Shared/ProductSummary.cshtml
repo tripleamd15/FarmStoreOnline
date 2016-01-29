@@ -1,0 +1,23 @@
+﻿@model FarmStore0906.Models.Fruit
+
+
+<div class="well">
+    <div class="pull-left" style="margin-right:10px">
+            <img class="img-thumbnail" width="80" height="80" src="@Url.Content(@Model.FruitImagePath)" alt="@Model.Name" /> 
+    </div>
+    <h3>
+        <strong>@Model.Name</strong>
+        <span class="pull-right label label-primary">@Model.Price.ToString("c")</span>
+    </h3>
+
+    @using (Html.BeginForm("AddToCart", "Cart"))
+    {
+        <div class="pull-right">
+            @Html.Hidden("fruitId",Model.Id)
+            @Html.Hidden("returnUrl", Request.Url.PathAndQuery)
+            <input type="submit" class="btn btn-success" value="Add to cart" />
+        </div>
+    }
+    <span class="lead">@Model.Description</span>
+</div>
+

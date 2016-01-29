@@ -1,0 +1,26 @@
+﻿@model FarmStore0906.Models.Fruit
+
+@{
+    Layout = null;
+}
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+    <div> 
+        <h2>Edit Fruit #@Model.Id</h2>
+        @using (Html.BeginForm("Edit", "Admin", FormMethod.Post, new { enctype="multipart/form-data"}))  //2 for upload file
+        {
+            @Html.HiddenFor(m => m.FruitImagePath)  //1 for upload file  ; this is necessary?11
+            @Html.HiddenFor(m => m.Id)  //this is not necessary?!
+            @Html.LabelFor(m => m.Name)@Html.TextBoxFor(m => m.Name)<br />
+            @Html.LabelFor(m => m.Price)@Html.TextBoxFor(m => m.Price)<br />
+            <label>Picture</label><input type="file" name="Picture"  />  //3 for upload file
+            <input type="submit" value="Update" />
+        }
+    </div>
+</body>
+</html>

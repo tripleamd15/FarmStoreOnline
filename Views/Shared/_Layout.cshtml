@@ -1,0 +1,43 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="~/Content/ErrorStyles.css" rel="stylesheet" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div class="navbar navbar-inverse" role="navigation" >
+        <a class="navbar-brand" href="#">HAPPY FARM STORE</a>
+        <div class="navbar-collapse collapse">
+            <div>
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Introduction", "Fruit")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Fruit")</li>
+                    <li style="padding:12px">@Html.Partial("SearchForm")</li>
+                    @*<li> @Html.ActionLink("admin", "Index", "Admin")</li>*@
+                </ul>  
+            </div>
+          
+            <div class="btn-group pull-right">
+                @Html.Action("Summary", "Cart")
+            </div>
+        </div>
+    </div>
+    
+    <div class="row panel">
+        
+        <div id="categories" class="col-xs-3" style="padding:20px">   
+            @Html.Action("Menu", "Nav")
+        </div>
+      
+        <div class="col-xs-8">
+            @RenderBody()
+        </div>
+    </div>
+</body>
+<footer style="position: fixed;left: 45px; bottom: 15px;">&copy; @DateTime.Now.Year Happy Farmstore</footer>
+</html>

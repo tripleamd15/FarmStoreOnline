@@ -1,0 +1,24 @@
+﻿@model IEnumerable<string>
+
+@*@Html.ActionLink("Introduction", "Introduction", "Fruit", null, new { @class = "btn btn-block btn-default btn-lg" })*@ 
+@Html.ActionLink("All Products", "Show", "Fruit", null, new { @class = "btn btn-block btn-default btn-lg" })
+
+@foreach (var link in Model)
+{
+    @Html.RouteLink(link,
+         new {  controller="Fruit",
+             action="Show",
+             category=link,
+             page=1
+             
+          }, new { @class="btn btn-block btn-default btn-lg"
+             +(link==ViewBag.SelectedCategory? " btn-primary":"")  //"btn-primary" cause problem!!!!!!
+          }
+          )
+    
+    //@Html.ActionLink(link,"ShowByLink",
+    // new {category=link},new {@class="btn btn-block btn-default btn-lg"
+    //    +(link == ViewBag.SelectedCategory ? " btn-primary" : "")
+     
+    // })
+}

@@ -1,0 +1,70 @@
+c:\users\liming\documents\visual studio 2015\Projects\FarmStore0906\FarmStore0906\bin\FarmStore0906.dll.config
+c:\users\liming\documents\visual studio 2015\Projects\FarmStore0906\FarmStore0906\bin\FarmStore0906.dll
+c:\users\liming\documents\visual studio 2015\Projects\FarmStore0906\FarmStore0906\bin\FarmStore0906.pdb
+c:\users\liming\documents\visual studio 2015\Projects\FarmStore0906\FarmStore0906\bin\EntityFramework.dll
+c:\users\liming\documents\visual studio 2015\Projects\FarmStore0906\FarmStore0906\bin\EntityFramework.SqlServer.dll
+c:\users\liming\documents\visual studio 2015\Projects\FarmStore0906\FarmStore0906\bin\System.Web.Helpers.dll
+c:\users\liming\documents\visual studio 2015\Projects\FarmStore0906\FarmStore0906\bin\System.Web.Mvc.dll
+c:\users\liming\documents\visual studio 2015\Projects\FarmStore0906\FarmStore0906\bin\System.Web.Razor.dll
+c:\users\liming\documents\visual studio 2015\Projects\FarmStore0906\FarmStore0906\bin\System.Web.Webpages.Deployment.dll
+c:\users\liming\documents\visual studio 2015\Projects\FarmStore0906\FarmStore0906\bin\System.Web.Webpages.dll
+c:\users\liming\documents\visual studio 2015\Projects\FarmStore0906\FarmStore0906\bin\System.Web.Webpages.Razor.dll
+c:\users\liming\documents\visual studio 2015\Projects\FarmStore0906\FarmStore0906\bin\EntityFramework.xml
+c:\users\liming\documents\visual studio 2015\Projects\FarmStore0906\FarmStore0906\bin\EntityFramework.SqlServer.xml
+c:\users\liming\documents\visual studio 2015\Projects\FarmStore0906\FarmStore0906\bin\System.Web.Razor.xml
+c:\users\liming\documents\visual studio 2015\Projects\FarmStore0906\FarmStore0906\bin\System.Web.Webpages.xml
+c:\users\liming\documents\visual studio 2015\Projects\FarmStore0906\FarmStore0906\bin\System.Web.Webpages.Deployment.xml
+c:\users\liming\documents\visual studio 2015\Projects\FarmStore0906\FarmStore0906\bin\System.Web.Webpages.Razor.xml
+c:\users\liming\documents\visual studio 2015\Projects\FarmStore0906\FarmStore0906\bin\System.Web.Helpers.xml
+c:\users\liming\documents\visual studio 2015\Projects\FarmStore0906\FarmStore0906\bin\System.Web.Mvc.xml
+c:\users\liming\documents\visual studio 2015\Projects\FarmStore0906\FarmStore0906\obj\Debug\FarmStore0906.csprojResolveAssemblyReference.cache
+c:\users\liming\documents\visual studio 2015\Projects\FarmStore0906\FarmStore0906\obj\Debug\FarmStore0906.dll
+c:\users\liming\documents\visual studio 2015\Projects\FarmStore0906\FarmStore0906\obj\Debug\FarmStore0906.pdb
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\bin\FarmStore0906.dll.config
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\bin\FarmStore0906.dll
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\bin\FarmStore0906.pdb
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\bin\EntityFramework.dll
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\bin\EntityFramework.SqlServer.dll
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\bin\System.Web.Helpers.dll
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\bin\System.Web.Mvc.dll
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\bin\System.Web.Razor.dll
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\bin\System.Web.Webpages.dll
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\bin\System.Web.Webpages.Razor.dll
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\bin\EntityFramework.xml
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\bin\EntityFramework.SqlServer.xml
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\bin\System.Web.Razor.xml
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\bin\System.Web.Webpages.xml
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\bin\System.Web.Webpages.Razor.xml
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\bin\System.Web.Helpers.xml
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\bin\System.Web.Mvc.xml
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\obj\Debug\FarmStore0906.csprojResolveAssemblyReference.cache
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\obj\Debug\FarmStore0906.dll
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\obj\Debug\FarmStore0906.pdb
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\bin\Ninject.dll
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy\FarmStore0906\FarmStore0906\bin\Ninject.xml
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\bin\FarmStore0906.dll.config
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\bin\FarmStore0906.dll
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\bin\FarmStore0906.pdb
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\bin\EntityFramework.dll
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\bin\EntityFramework.SqlServer.dll
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\bin\Ninject.dll
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\bin\System.Web.Helpers.dll
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\bin\System.Web.Mvc.dll
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\bin\System.Web.Razor.dll
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\bin\System.Web.Webpages.dll
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\bin\System.Web.Webpages.Razor.dll
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\bin\EntityFramework.xml
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\bin\EntityFramework.SqlServer.xml
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\bin\Ninject.xml
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\bin\System.Web.Razor.xml
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\bin\System.Web.Webpages.xml
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\bin\System.Web.Webpages.Razor.xml
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\bin\System.Web.Helpers.xml
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\bin\System.Web.Mvc.xml
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\obj\Debug\FarmStore0906.csprojResolveAssemblyReference.cache
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\obj\Debug\FarmStore0906.dll
+C:\Users\Liming\Documents\Visual Studio 2015\Projects\Farmstore0906Copy1 Ok\FarmStore0906\FarmStore0906\obj\Debug\FarmStore0906.pdb
